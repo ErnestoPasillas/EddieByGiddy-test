@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 290.152 s <<< FAILURE! - in TestSuite
+EddieByGiddy.EddieByGiddyMaven.CreateAccount2.CreateAccountAmazon  Time elapsed: 9.342 s  <<< FAILURE!
+java.lang.AssertionError: expected [The email address netluevano4@gmail.com is already taken.] but found []
+	at EddieByGiddy.EddieByGiddyMaven.CreateAccount2.CreateAccountAmazon(CreateAccount2.java:87)
+
+EddieByGiddy.EddieByGiddyMaven.EdGuide.FilterByTopic  Time elapsed: 5.024 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#edit\-field\-playlist\-target\-id\-1"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:162d:10b3:aa97:77d1:4a6b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:60776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f9d758989b37f8449a0b21dd421a4da9
+*** Element info: {Using=id, value=edit-field-playlist-target-id-1}
+	at EddieByGiddy.EddieByGiddyMaven.EdGuide.FilterByTopic(EdGuide.java:80)
+

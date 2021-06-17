@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+    
+    
+    
+     <class name="EddieByGiddy.EddieByGiddyMaven.CreateAccount2"/>
+     <class name="EddieByGiddy.EddieByGiddyMaven.EdGuide"/>
+     <class name="EddieByGiddy.EddieByGiddyMaven.DATest"/>
+     <class name="EddieByGiddy.EddieByGiddyMaven.AddToCart"/> 
+     <class name="EddieByGiddy.EddieByGiddyMaven.AddToCartEddieOneTime"/>
+     <class  name="EddieByGiddy.EddieByGiddyMaven.Quiz"/>
+        
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
