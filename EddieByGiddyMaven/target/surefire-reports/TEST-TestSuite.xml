@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="290.152" tests="12" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="229.313" tests="12" errors="0" skipped="0" failures="10">
   <properties>
     <property name="java.specification.version" value="15"/>
-    <property name="webdriver.chrome.driver" value="//Users//ernestopasillasluevano//Downloads//chromedriver 2"/>
+    <property name="webdriver.chrome.driver" value="//Users//ernestopasillasluevano//Downloads//chromedriver 3"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/test-classes:/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/classes:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ernestopasillasluevano/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ernestopasillasluevano/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/ernestopasillasluevano/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ernestopasillasluevano/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ernestopasillasluevano/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ernestopasillasluevano/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ernestopasillasluevano/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ernestopasillasluevano/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/ernestopasillasluevano/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/ernestopasillasluevano/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/ernestopasillasluevano/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/ernestopasillasluevano/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/ernestopasillasluevano/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/ernestopasillasluevano/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ernestopasillasluevano/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/ernestopasillasluevano/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/ernestopasillasluevano/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/ernestopasillasluevano/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/ernestopasillasluevano/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/ernestopasillasluevano/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib"/>
-    <property name="sun.java.command" value="/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/surefire/surefirebooter1625872149350370580.jar /Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/surefire 2021-04-21T11-18-17_722-jvmRun1 surefire16037617638392483707tmp surefire_02112380052800397168tmp"/>
+    <property name="sun.java.command" value="/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/surefire/surefirebooter17804570991301795595.jar /Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/surefire 2021-07-15T12-47-18_244-jvmRun1 surefire2891093067468880247tmp surefire_01064982682479924220tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/test-classes:/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/classes:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ernestopasillasluevano/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/ernestopasillasluevano/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ernestopasillasluevano/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/ernestopasillasluevano/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ernestopasillasluevano/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ernestopasillasluevano/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ernestopasillasluevano/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ernestopasillasluevano/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ernestopasillasluevano/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/ernestopasillasluevano/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/ernestopasillasluevano/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/ernestopasillasluevano/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/ernestopasillasluevano/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/ernestopasillasluevano/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/ernestopasillasluevano/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/ernestopasillasluevano/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ernestopasillasluevano/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/ernestopasillasluevano/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/ernestopasillasluevano/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/ernestopasillasluevano/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ernestopasillasluevano/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/ernestopasillasluevano/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/ernestopasillasluevano/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/ernestopasillasluevano/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/surefire/surefirebooter1625872149350370580.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ernestopasillasluevano/eclipse-workspace/EddieByGiddyMaven/target/surefire/surefirebooter17804570991301795595.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -55,151 +55,234 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="CreateAccountAmazon" classname="EddieByGiddy.EddieByGiddyMaven.CreateAccount2" time="9.342">
-    <failure message="expected [The email address netluevano4@gmail.com is already taken.] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [The email address netluevano4@gmail.com is already taken.] but found []
-	at EddieByGiddy.EddieByGiddyMaven.CreateAccount2.CreateAccountAmazon(CreateAccount2.java:87)
-]]></failure>
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 44308
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:18:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="CreateAccountClinic" classname="EddieByGiddy.EddieByGiddyMaven.CreateAccount2" time="6.195">
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 43927
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:18:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="CreateAccountFlow" classname="EddieByGiddy.EddieByGiddyMaven.CreateAccount2" time="6.514">
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 5815
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:18:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="FilterByExpert" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="12.757">
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-Video Guide | education.eddiebygiddy.com
-true
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 16987
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:19:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="FilterByTopic" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="5.024">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#edit\-field\-playlist\-target\-id\-1&quot;}&#10;  (Session info: chrome=89.0.4389.128)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:162d:10b3:aa97:77d1:4a6b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:60776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f9d758989b37f8449a0b21dd421a4da9&#10;*** Element info: {Using=id, value=edit-field-playlist-target-id-1}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#edit\-field\-playlist\-target\-id\-1"}
-  (Session info: chrome=89.0.4389.128)
+  <testcase name="CreateAccountAmazon" classname="EddieByGiddy.EddieByGiddyMaven.CreateAccount2" time="6.344">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#na\-step\-one&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:49982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 46444721f2973f2716116eabbe87aa86&#10;*** Element info: {Using=id, value=na-step-one}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#na\-step\-one"}
+  (Session info: chrome=91.0.4472.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:162d:10b3:aa97:77d1:4a6b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:60776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f9d758989b37f8449a0b21dd421a4da9
-*** Element info: {Using=id, value=edit-field-playlist-target-id-1}
-	at EddieByGiddy.EddieByGiddyMaven.EdGuide.FilterByTopic(EdGuide.java:80)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:49982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 46444721f2973f2716116eabbe87aa86
+*** Element info: {Using=id, value=na-step-one}
+	at EddieByGiddy.EddieByGiddyMaven.CreateAccount2.CreateAccountAmazon(CreateAccount2.java:63)
 ]]></failure>
     <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
 https://eddiebygiddy.com/
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 34752
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 42834
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 21, 2021 11:19:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2021 12:47:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="FilterBytopicAndExpert" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="13.152">
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-Video Guide | education.eddiebygiddy.com
-true
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 32790
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:19:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="GoToEdGuide" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="12.044">
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-Video Guide | education.eddiebygiddy.com
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 45187
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:19:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="DeliveryAddress" classname="EddieByGiddy.EddieByGiddyMaven.DATest" time="28.715">
-    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
-https://eddiebygiddy.com/
-Eddie by Giddy - Order Status
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 31259
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Apr 21, 2021 11:20:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="AddToCartChecktOut" classname="EddieByGiddy.EddieByGiddyMaven.AddToCart" time="15.401">
+  <testcase name="CreateAccountClinic" classname="EddieByGiddy.EddieByGiddyMaven.CreateAccount2" time="4.775">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#na\-step\-one&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7af2bde8d6dfe194290b7c03800bd871&#10;*** Element info: {Using=id, value=na-step-one}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#na\-step\-one"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50104}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7af2bde8d6dfe194290b7c03800bd871
+*** Element info: {Using=id, value=na-step-one}
+	at EddieByGiddy.EddieByGiddyMaven.CreateAccount2.CreateAccountClinic(CreateAccount2.java:104)
+]]></failure>
     <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
 https://eddiebygiddy.com/
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 1885
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 48189
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 21, 2021 11:20:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2021 12:47:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="EddieOneTime" classname="EddieByGiddy.EddieByGiddyMaven.AddToCartEddieOneTime" time="14.094">
+  <testcase name="CreateAccountFlow" classname="EddieByGiddy.EddieByGiddyMaven.CreateAccount2" time="5.012">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#na\-step\-one&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 80db86e67c509af208ba09e96e09c198&#10;*** Element info: {Using=id, value=na-step-one}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#na\-step\-one"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80db86e67c509af208ba09e96e09c198
+*** Element info: {Using=id, value=na-step-one}
+	at EddieByGiddy.EddieByGiddyMaven.CreateAccount2.CreateAccountFlow(CreateAccount2.java:22)
+]]></failure>
     <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
 https://eddiebygiddy.com/
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 46858
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 36376
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 21, 2021 11:20:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2021 12:47:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="TakeQuizMPFor" classname="EddieByGiddy.EddieByGiddyMaven.Quiz" time="49.56">
+  <testcase name="FilterByExpert" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="1.868">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6c25ed719f45742413fa4ad9f5885104&#10;*** Element info: {Using=css selector, value=#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#account-signup-form > fieldset > input[type=text]:nth-child(4)"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50357}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c25ed719f45742413fa4ad9f5885104
+*** Element info: {Using=css selector, value=#account-signup-form > fieldset > input[type=text]:nth-child(4)}
+	at EddieByGiddy.EddieByGiddyMaven.EdGuide.FilterByExpert(EdGuide.java:100)
+]]></failure>
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 40285
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:48:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="FilterByTopic" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="2.31">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ddb3e1da76d4368e7051e417e4df8b74&#10;*** Element info: {Using=css selector, value=#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#account-signup-form > fieldset > input[type=text]:nth-child(4)"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ddb3e1da76d4368e7051e417e4df8b74
+*** Element info: {Using=css selector, value=#account-signup-form > fieldset > input[type=text]:nth-child(4)}
+	at EddieByGiddy.EddieByGiddyMaven.EdGuide.FilterByTopic(EdGuide.java:71)
+]]></failure>
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 24748
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:48:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="FilterBytopicAndExpert" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="2.871">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4fb72da7e84403e34547073730256e31&#10;*** Element info: {Using=css selector, value=#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#account-signup-form > fieldset > input[type=text]:nth-child(4)"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50545}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4fb72da7e84403e34547073730256e31
+*** Element info: {Using=css selector, value=#account-signup-form > fieldset > input[type=text]:nth-child(4)}
+	at EddieByGiddy.EddieByGiddyMaven.EdGuide.FilterBytopicAndExpert(EdGuide.java:127)
+]]></failure>
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 8114
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:48:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="GoToEdGuide" classname="EddieByGiddy.EddieByGiddyMaven.EdGuide" time="2.805">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0332998b7d0ee164b1c8b10f4fbf7ae4&#10;*** Element info: {Using=css selector, value=#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#account-signup-form > fieldset > input[type=text]:nth-child(4)"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50635}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0332998b7d0ee164b1c8b10f4fbf7ae4
+*** Element info: {Using=css selector, value=#account-signup-form > fieldset > input[type=text]:nth-child(4)}
+	at EddieByGiddy.EddieByGiddyMaven.EdGuide.GoToEdGuide(EdGuide.java:17)
+]]></failure>
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 39514
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:48:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DeliveryAddress" classname="EddieByGiddy.EddieByGiddyMaven.DATest" time="2.848">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)&quot;}&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ffcee0cd1fe403bc5881c1ab8f5670a6&#10;*** Element info: {Using=css selector, value=#account-signup-form &gt; fieldset &gt; input[type=text]:nth-child(4)}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#account-signup-form > fieldset > input[type=text]:nth-child(4)"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:50730}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffcee0cd1fe403bc5881c1ab8f5670a6
+*** Element info: {Using=css selector, value=#account-signup-form > fieldset > input[type=text]:nth-child(4)}
+	at EddieByGiddy.EddieByGiddyMaven.DATest.DeliveryAddress(DATest.java:17)
+]]></failure>
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 24913
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:48:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AddToCartChecktOut" classname="EddieByGiddy.EddieByGiddyMaven.AddToCart" time="16.997">
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 7557
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:48:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="EddieOneTime" classname="EddieByGiddy.EddieByGiddyMaven.AddToCartEddieOneTime" time="15.447">
+    <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
+https://eddiebygiddy.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 16568
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 15, 2021 12:49:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TakeQuizMPFor" classname="EddieByGiddy.EddieByGiddyMaven.Quiz" time="43.788">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:51138}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4aa5804ec3701b26873286386469b08d" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:51138}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aa5804ec3701b26873286386469b08d
+	at EddieByGiddy.EddieByGiddyMaven.Quiz.TakeQuizMPFor(Quiz.java:57)
+]]></failure>
     <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
 https://eddiebygiddy.com/
 My partner
@@ -211,28 +294,28 @@ Difficulty achieving an erection.
 Less than 50% of the time
 Psychological
 Prescription ED Pills (Viagra/ Sildenafil/ Cialis)
-Prostate Cancer
-Congrats!
- 
- 
-Based on your answers, we recommend Eddie and the ED Guide video series to help your partner achieve and sustain harder, longer-lasting, more satisfying erections, and to add something new and exciting to the bedroom. We're pleased to add that other men dealing with  have reported success using Eddie.
- 
-Included with every Eddie, the ED Guide videos include hours of professional guidance from experts about ED, arousal, intimacy, orgasms, and much more.
- 
-As a gesture of appreciation for your service, enjoy an extra $20 off + Free Shipping with the discount code: SALUTE20
-
-BUY NOW
-https://eddiebygiddy.com/is-eddie-right-for-you/
+Daily
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 43754
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 36015
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 21, 2021 11:21:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2021 12:49:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="TakeQuizMSFor" classname="EddieByGiddy.EddieByGiddyMaven.Quiz" time="48.525">
+  <testcase name="TakeQuizMSFor" classname="EddieByGiddy.EddieByGiddyMaven.Quiz" time="43.272">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=91.0.4472.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Itexicos-MacBook-Pro.local&apos;, ip: &apos;2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f4bc23b1a0cd7e13a5cf785b39709441" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Itexicos-MacBook-Pro.local', ip: '2806:103e:16:4b21:4d54:ac70:329e:4ee7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/pb/9svbzhys5yd...}, goog:chromeOptions: {debuggerAddress: localhost:51298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f4bc23b1a0cd7e13a5cf785b39709441
+	at EddieByGiddy.EddieByGiddyMaven.Quiz.TakeQuizMSFor(Quiz.java:121)
+]]></failure>
     <system-out><![CDATA[Erectile Dysfunction Management & ED Treatment | Eddie by Giddy
 https://eddiebygiddy.com/
 Myself
@@ -244,24 +327,13 @@ Difficulty achieving an erection.
 Less than 50% of the time
 Psychological
 Prescription ED Pills (Viagra/ Sildenafil/ Cialis)
-Prostate Cancer
-Congrats!
- 
- 
-Based on your answers, we recommend Eddie and the ED Guide video series to help you achieve and sustain harder, longer-lasting, more satisfying erections, and to add something new and exciting to the bedroom. We're pleased to add that other men dealing with Prostate Cancer have reported success using Eddie.
- 
-Included with every Eddie, the ED Guide videos include hours of professional guidance from experts about ED, arousal, intimacy, orgasms, and much more.
- 
-As a gesture of appreciation for your service, enjoy an extra $20 off + Free Shipping with the discount code: SALUTE20
-
-BUY NOW
-https://eddiebygiddy.com/is-eddie-right-for-you/
+Daily
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 48106
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 4311
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 21, 2021 11:22:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2021 12:50:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

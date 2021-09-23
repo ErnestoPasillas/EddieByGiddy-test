@@ -7,16 +7,36 @@
         <methods>
           <include name="setup"/>
           <include name="closeWidnows"/>
+          <include name="FilterByExpert"/>
+          <include name="GoToEdGuide"/>
+          <include name="FilterBytopicAndExpert"/>
           <include name="FilterByTopic"/>
         </methods>
       </class> <!-- EddieByGiddy.EddieByGiddyMaven.EdGuide -->
+      <class name="EddieByGiddy.EddieByGiddyMaven.Quiz">
+        <methods>
+          <include name="setup"/>
+          <include name="closeWidnows"/>
+          <include name="TakeQuizMSFor"/>
+          <include name="TakeQuizMPFor"/>
+        </methods>
+      </class> <!-- EddieByGiddy.EddieByGiddyMaven.Quiz -->
       <class name="EddieByGiddy.EddieByGiddyMaven.CreateAccount2">
         <methods>
           <include name="setup"/>
           <include name="closeWidnows"/>
+          <include name="CreateAccountClinic"/>
           <include name="CreateAccountAmazon"/>
+          <include name="CreateAccountFlow"/>
         </methods>
       </class> <!-- EddieByGiddy.EddieByGiddyMaven.CreateAccount2 -->
+      <class name="EddieByGiddy.EddieByGiddyMaven.DATest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeWidnows"/>
+          <include name="DeliveryAddress"/>
+        </methods>
+      </class> <!-- EddieByGiddy.EddieByGiddyMaven.DATest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
